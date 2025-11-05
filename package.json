@@ -2,11 +2,11 @@
   "name": "discord-skill-points-bot",
   "version": "1.0.0",
   "description": "A comprehensive Discord bot with Skill Points economy, XP leveling, and skill management",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node src/index.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "keywords": ["discord", "bot", "economy", "leveling"],
   "author": "",
