@@ -1,7 +1,7 @@
 import { Client, GatewayIntentBits, Collection, Partials } from 'discord.js';
 import { db } from './storage.js';
 import cron from 'node-cron';
-import { resetDailyTrainUses } from './database/db.js';
+import { initializeDatabase, resetDailyTrainUses } from './database/db.js';
 import { registerCommands } from './deploy-commands.js';
 import { loadCommands } from './handlers/commandHandler.js';
 import { handleMessageXP } from './handlers/xpHandler.js';
