@@ -1,5 +1,5 @@
 import { Client, GatewayIntentBits, Collection, Partials } from 'discord.js';
-import { initializeDatabase } from './database/db.js';
+import { db } from './storage.js';
 import cron from 'node-cron';
 import { resetDailyTrainUses } from './database/db.js';
 import { registerCommands } from './deploy-commands.js';
